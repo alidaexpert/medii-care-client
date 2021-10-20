@@ -43,6 +43,9 @@ const signUpEmail=()=>{
     .then(result=>{
         setUser(result.user)
     })
+    .catch(error=>{
+        setError(error.message)
+    })
 }
 const logOut=()=>{
     setIsLoading(true)
