@@ -24,7 +24,7 @@ const linkedinFont=<FontAwesomeIcon icon={faLinkedinIn}></FontAwesomeIcon>
      </Card.Text>
      <Card.Text className="text-secondary hover-card-2">
      {/* <button onClick={handleClick} className="btn btn-info text-white my-3">Book Appoinment</button> */}
-     <p className="d-flex justify-content-center py-3 gap-4 fs-3 ">
+     <p className="d-flex justify-content-center gap-4 fs-3 ">
      <a href="https://www.facebook.com/AliSainOfficial" className="text-dark hover-link"><span>{facebookFont}</span></a>
      <a href="https://www.facebook.com/AliSainOfficial" className="text-dark hover-link"><span>{instaFont}</span></a>
      <a href="https://www.facebook.com/AliSainOfficial" className="text-dark hover-link"><span>{twitterFont}</span></a>

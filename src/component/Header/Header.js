@@ -29,9 +29,9 @@ const handleClick=()=>{
          <div className="py-3 row m-0 row-cols-lg-2">
            <div className="col">
            <p className="mb-0 d-lg-flex text-white fw-light">
-             <span className="d-block"><span className="mx-2 text-danger">{phoneFont}</span> +1 733 244 1212 |</span>
-                   <span className="d-block"> <span className="mx-2 text-danger">{inboxFont}</span> info@mediicare.com |</span>
-                   <span className="d-block"> <span className="mx-2 text-danger">{mapFont}</span> 1212 Jonathon Road,London,UK</span></p>
+             <small className="d-block"><span className="mx-2 text-danger">{phoneFont}</span> +1 733 244 1212 |</small>
+                   <small className="d-block"> <span className="mx-2 text-danger">{inboxFont}</span> info@mediicare.com |</small>
+                   <small className="d-block"> <span className="mx-2 text-danger">{mapFont}</span> 1212 Jonathon Road,London,UK</small></p>
            </div>
            <div className="col justify-content-end d-flex px-5">
            <p className="d-flex mb-0 gap-3 fs-6 px-0">

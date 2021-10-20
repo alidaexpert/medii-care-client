@@ -16,13 +16,16 @@ const ContactUs = () => {
     const instaFont=<FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
     const linkedinFont=<FontAwesomeIcon icon={faLinkedinIn}></FontAwesomeIcon>
     return (
-        <div>
-             {/* common header  */}
-             <div className="img-bg p-5">
-            <div className="d-flex align-items-center text-white py-lg-5 my-lg-5">
-                <Link className="text-white" to="/"><h2>Home</h2></Link> 
-                <h2 className="mx-2">/</h2>
-                <Link  className="text-white" to="/contact"><h2>Contact Us</h2></Link>
+        <div className="bg-info bg-opacity-10">
+                        {/* common header  */}
+                        <div className="img-bg p-5">
+            <div className=" align-items-center text-white">
+                <h1 className="m-0">Contact</h1>
+               <div>
+               <Link className="text-white text-opacity-75" to="/"><small>Home</small></Link> 
+                <small className="mx-2">/</small>
+                <Link  className="text-danger" to="/contact"><small>Contact</small></Link>
+               </div>
             </div>
 
         </div>
@@ -87,7 +90,13 @@ const ContactUs = () => {
              </div>
             
          </div>
-         <img src={map} className="w-100" alt="" />
+
+        <div className="text-center">
+          <h2>Google Map Location</h2>
+        <div className="d-flex justify-content-center py-3">
+         <img src={map} className="w-75 border border-4 border-dark" alt="" />
+         </div>
+        </div>
             
         </div>
     );

@@ -8,18 +8,21 @@ import "./AboutUs.css"
 const AboutUs = () => {
     const checkFont=<FontAwesomeIcon icon={faCheckCircle}></FontAwesomeIcon>
     return (
-        <div className="">
-            {/* common header  */}
-                    <div className="img-bg p-5">
-            <div className="d-flex align-items-center text-white py-lg-5 my-lg-5">
-                <Link className="text-white" to="/"><h2>Home</h2></Link> 
-                <h2 className="mx-2">/</h2>
-                <Link  className="text-white" to="/about"><h2>About</h2></Link>
+             <div>
+             {/* common header  */}
+             <div className="img-bg p-5">
+            <div className=" align-items-center text-white">
+                <h1 className="m-0">About</h1>
+               <div>
+               <Link className="text-white text-opacity-75" to="/"><small>Home</small></Link> 
+                <small className="mx-2">/</small>
+                <Link  className="text-danger" to="/about"><small>About</small></Link>
+               </div>
             </div>
 
         </div>
          {/* start from here  */}
-        <div className="py-5 my-lg-5">
+        <div className="py-5 bg-primary bg-opacity-10">
             <div  className="container my-lg-5">
             <div className=" row row-cols-lg-2 row-cols-1">
                

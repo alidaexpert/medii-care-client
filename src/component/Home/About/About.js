@@ -6,7 +6,7 @@ import nurse2 from '../../../images/nurses/nurses02.jpg'
 const About = () => {
     const checkFont=<FontAwesomeIcon icon={faCheckCircle}></FontAwesomeIcon>
     return (
-        <div className="py-5 my-lg-5 ">
+        <div className="py-5 bg-info bg-opacity-10">
             <div  className="container my-lg-5">
             <div className=" row row-cols-lg-2 row-cols-1">
                

@@ -16,9 +16,9 @@ const Doctors = () => {
 
     return (
         <div className="bg-info bg-opacity-10 py-5">
-        <div className="container my-5 text-center">
+        <div className="container text-center">
            <small className="service">| Medical Doctors</small>
-            <h3 className="px-5 py-2 mb-5">They are always preapre to save a life <br /> from their dedication,strugle and service.</h3>
+            <h3 className="px-5 py-2 mb-5">They are always preapre to save a life <br /> from their dedication and strugle.</h3>
             <Row xs={1} md={2} lg={3} className="g-4">
             {
                 doctors.map(doctor=><Doctor key={doctor.id} doctors={doctor}></Doctor>).slice(0,3)

@@ -66,9 +66,9 @@ const Footer = () => {
                 <div className="col-lg-3 col-md-6 col-12 col-sm-12">
                     <h5 className="text-secondary">Information</h5>
                     <ul className="list-unstyled lh-lg">
-                    <li><span className="me-2 text-info">{phoneFont}</span> +1 733 244 1212</li>
-                    <li><span className="me-2 text-info">{inboxFont}</span> info@mediicare.com</li>
-                    <li><span className="me-2 text-info">{mapFont}</span> 1212 Jonathon Road,London,UK</li>
+                    <li><span className="me-2 text-info">{phoneFont}</span> <small> +1 733 244 1212</small></li>
+                    <li><span className="me-2 text-info">{inboxFont}</span> <small>info@mediicare.com</small></li>
+                    <li><span className="me-2 text-info">{mapFont}</span> <small>1212 Jonathon Road,London,UK</small></li>
                     </ul>
                     </div>
 
