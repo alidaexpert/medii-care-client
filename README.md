@@ -1,5 +1,7 @@
 # This is Healthcare Related Website
-## To check this website [Click Here](https://medii-care.web.app).
+# Website Name `Medii Care`
+#### This is a clinic service related website.So i named this website mediiCare
+## To check this website [Medii Care](https://medii-care.web.app).
 
 #`Bullet Point About This Site`
 ### 1.This is clinic website.
