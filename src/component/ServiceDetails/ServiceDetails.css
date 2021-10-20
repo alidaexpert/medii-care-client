@@ -1,0 +1,7 @@
+.img-bg{
+    background-image: linear-gradient(90deg,rgba(0, 0, 0, 0.678),rgba(0, 0, 0, 0.609)),url(../../images/banner/New_folder/02.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}

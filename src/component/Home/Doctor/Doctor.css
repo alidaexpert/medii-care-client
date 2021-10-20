@@ -1,0 +1,15 @@
+.hover-card-2{
+    height: 0rem !important;
+    overflow: hidden;
+    padding: 0 !important;
+    transition: 1s;
+
+}
+.hover-card:hover .hover-card-2{
+height: 5rem !important;
+/* padding: 1rem !important; */
+
+}
+.hover-link:hover{
+    color: crimson !important;
+}
